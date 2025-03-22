@@ -1,0 +1,20 @@
+[
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/MedicalPatient/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\Medical.dir\\Hospital.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\MedicalPatient\\Hospital.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/MedicalPatient/Hospital.cpp",
+  "output": "CMakeFiles/Medical.dir/Hospital.cpp.obj"
+},
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/MedicalPatient/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\Medical.dir\\Patient.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\MedicalPatient\\Patient.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/MedicalPatient/Patient.cpp",
+  "output": "CMakeFiles/Medical.dir/Patient.cpp.obj"
+},
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/MedicalPatient/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\Medical.dir\\main.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\MedicalPatient\\main.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/MedicalPatient/main.cpp",
+  "output": "CMakeFiles/Medical.dir/main.cpp.obj"
+}
+]
