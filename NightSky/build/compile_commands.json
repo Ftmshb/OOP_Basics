@@ -1,0 +1,20 @@
+[
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/NightSky/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\Star_app.dir\\Sky.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\NightSky\\Sky.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/NightSky/Sky.cpp",
+  "output": "CMakeFiles/Star_app.dir/Sky.cpp.obj"
+},
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/NightSky/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\Star_app.dir\\Star.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\NightSky\\Star.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/NightSky/Star.cpp",
+  "output": "CMakeFiles/Star_app.dir/Star.cpp.obj"
+},
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/NightSky/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\Star_app.dir\\main.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\NightSky\\main.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/NightSky/main.cpp",
+  "output": "CMakeFiles/Star_app.dir/main.cpp.obj"
+}
+]
