@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/GPS/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\gps_app.dir\\gps.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\GPS\\gps.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/GPS/gps.cpp",
+  "output": "CMakeFiles/gps_app.dir/gps.cpp.obj"
+},
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/GPS/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\gps_app.dir\\main.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\GPS\\main.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/GPS/main.cpp",
+  "output": "CMakeFiles/gps_app.dir/main.cpp.obj"
+}
+]
