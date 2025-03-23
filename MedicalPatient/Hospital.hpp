@@ -7,13 +7,13 @@
 class Hospital{
 
     private:
-    std::vector<Patient*> Patients;
+    std::vector<Patient*> Patients; // وکتوری از نوع کلاس بیمار برای نگهداری بیمارها
     static std::string decode(const std::string& str); // تابع برای رمزگشایی کردن
 
     public:
-    void add_patients(Patient* patient);
-    void print_all_patients() const;
     ~Hospital();
-    void LoadFromFile(const std::string& filename);
+    void add_patients(Patient* patient); // اضافه کردن بیمار به وکتور
+    void print_all_patients() const;
+    void ReadFromFile(const std::string& filename); // خواندن از فایل
 
 };

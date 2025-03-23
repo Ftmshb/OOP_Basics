@@ -17,7 +17,7 @@ int main(){
     Hospital hospital;
 
     try {
-        hospital.LoadFromFile("patients.txt");
+        hospital.ReadFromFile("patients.txt"); // خواندن از فایل
     } 
     catch (const exception& e) {
         cout << e.what() << "\n";
@@ -59,7 +59,7 @@ int main(){
             
             try{
                 Patient* patient = new Patient(name, age, Bodytemperature, Heartbeat, Breathingrate, Bloodpressure);
-                hospital.add_patients(patient); // اضافه کردن اشاره‌گر به بیمارستان
+                hospital.add_patients(patient); // ایجاد شی و ضافه کردن اشاره‌گر به بیمارستان
             }
             catch(invalid_argument &e){
                 cout << e.what();
@@ -69,13 +69,6 @@ int main(){
             }
         }
     }
-    /*try {
-        hospital.SaveToFile("patients.txt");
-        std::cout << "Data saved to file.\n";
-    } 
-    catch (const exception& e) {
-        std::cout << "Error saving data to file: " << e.what() << "\n";
-    }*/
-    hospital.print_all_patients();
+    hospital.print_all_patients(); // چاپ کردن تمام بیمارها
     return 0;
 }

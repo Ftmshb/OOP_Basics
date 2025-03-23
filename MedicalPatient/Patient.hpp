@@ -12,15 +12,15 @@ class Patient{
     private:
     std::string name;
     int age;
-    double Bodytemperature;
-    int Heartbeat;
-    int Breathingrate;
-    double Bloodpressure;
+    double Bodytemperature; //دمای بدن بیمار
+    int Heartbeat; //ضربان قلب بیمار
+    int Breathingrate; //نرخ تنفس بیمار
+    double Bloodpressure; //فشارخون بیمار
     std::string cryptography(const std::string& str);// تابع برای رمزنگاری کردن
-    void SaveToFile(const std::string& filename);
+    void SaveToFile(const std::string& filename, std::string newData); //تابع برای سیو کردن تو فایل
     
     public:
-    Patient(std::string name, int age, double Bodytemperature, int Heartbeat, int Breathingrate, double Bloodpressure);
+    Patient(std::string name, int age, double Bodytemperature, int Heartbeat, int Breathingrate, double Bloodpressure, bool ShowingAgainTheWarning = true);
     ~Patient();
     std::string get_name();
     int get_age();
