@@ -4,6 +4,8 @@
 #include <string>
 #include <cstdlib> // برای rand() و srand()
 #include <ctime>   // برای time()
+#include <vector>
+#include <fstream>
 
 class Patient{
 
@@ -14,7 +16,9 @@ class Patient{
     int Heartbeat;
     int Breathingrate;
     double Bloodpressure;
-
+    std::string cryptography(const std::string& str);// تابع برای رمزنگاری کردن
+    void SaveToFile(const std::string& filename);
+    
     public:
     Patient(std::string name, int age, double Bodytemperature, int Heartbeat, int Breathingrate, double Bloodpressure);
     ~Patient();
@@ -29,7 +33,6 @@ class Patient{
     void set_Heartbeat(int Heartbeat);
     void set_Breathingrate(int age, int Breathingrate);
     void set_Bloodpressure(int age, double Bloodpressure);
-
 };
 
 #endif

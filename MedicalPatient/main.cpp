@@ -16,6 +16,13 @@ int main(){
     cout << "* WELCOME *\n";
     Hospital hospital;
 
+    try {
+        hospital.LoadFromFile("patients.txt");
+    } 
+    catch (const exception& e) {
+        cout << e.what() << "\n";
+    }
+
     while(true){
         cout << "Enter continue or exit: \n";
         string input;
@@ -62,5 +69,13 @@ int main(){
             }
         }
     }
+    /*try {
+        hospital.SaveToFile("patients.txt");
+        std::cout << "Data saved to file.\n";
+    } 
+    catch (const exception& e) {
+        std::cout << "Error saving data to file: " << e.what() << "\n";
+    }*/
     hospital.print_all_patients();
+    return 0;
 }

@@ -2,6 +2,44 @@
 #include <iostream>
 using namespace std;
 
+string Patient::cryptography(const std::string &str)
+{
+    string encrypted = str;
+    char key = 'F';
+    for (char &c : encrypted)
+    {
+        c ^= key;
+    }
+    return encrypted;
+}
+
+void Patient::SaveToFile(const string &filename)
+{
+    ofstream file(filename, ios::trunc);
+    if (!file.is_open())
+    {
+        throw runtime_error("Could not open file for writing!");
+    }
+    
+        string encryptedName = cryptography(get_name());
+        string encryptedAge = cryptography(to_string(get_age()));
+        string encryptedTemp = cryptography(to_string(get_Bodytemperature()));
+        string encryptedHeartbeat = cryptography(to_string(get_Heartbeat()));
+        string encryptedBreathing = cryptography(to_string(get_Breathingrate()));
+        string encryptedPressure = cryptography(to_string(get_Bloodpressure()));
+
+        // ذخیره‌سازی داده‌های رمزنگاری شده در فایل
+        file << encryptedName << "-"
+             << encryptedAge << "-"
+             << encryptedTemp << "-"
+             << encryptedHeartbeat << "-"
+             << encryptedBreathing << "-"
+             << encryptedPressure << "\n";
+    
+
+    file.close();
+}
+
 Patient::Patient(string name, int age, double Bodytemperature, int Heartbeat, int Breathingrate, double Bloodpressure){
     set_age(age);
     set_Bodytemperature(Bodytemperature);
@@ -18,6 +56,13 @@ Patient::Patient(string name, int age, double Bodytemperature, int Heartbeat, in
 }
 
 Patient::~Patient(){
+    try {
+        SaveToFile("patients.txt");
+        cout << name <<"[~]Patient data encrypted and saved to file.\n";
+    } 
+    catch (const std::exception& e) {
+        cerr << "Error saving patient data: " << e.what() << "\n";
+    }
 }
 
 string Patient::get_name(){return name;}
