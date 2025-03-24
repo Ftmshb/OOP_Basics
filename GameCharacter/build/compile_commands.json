@@ -1,0 +1,20 @@
+[
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/GameCharacter/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\game_app.dir\\Game.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\GameCharacter\\Game.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/GameCharacter/Game.cpp",
+  "output": "CMakeFiles/game_app.dir/Game.cpp.obj"
+},
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/GameCharacter/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\game_app.dir\\Character.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\GameCharacter\\Character.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/GameCharacter/Character.cpp",
+  "output": "CMakeFiles/game_app.dir/Character.cpp.obj"
+},
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/GameCharacter/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\game_app.dir\\main.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\GameCharacter\\main.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/GameCharacter/main.cpp",
+  "output": "CMakeFiles/game_app.dir/main.cpp.obj"
+}
+]
