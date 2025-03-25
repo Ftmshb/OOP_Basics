@@ -1,0 +1,20 @@
+[
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/CalendarEvent/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\Event_app.dir\\Calendar.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\CalendarEvent\\Calendar.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/CalendarEvent/Calendar.cpp",
+  "output": "CMakeFiles/Event_app.dir/Calendar.cpp.obj"
+},
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/CalendarEvent/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\Event_app.dir\\Event.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\CalendarEvent\\Event.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/CalendarEvent/Event.cpp",
+  "output": "CMakeFiles/Event_app.dir/Event.cpp.obj"
+},
+{
+  "directory": "E:/Fatemeh/Fati/OOP_Basics/CalendarEvent/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\Event_app.dir\\main.cpp.obj -c E:\\Fatemeh\\Fati\\OOP_Basics\\CalendarEvent\\main.cpp",
+  "file": "E:/Fatemeh/Fati/OOP_Basics/CalendarEvent/main.cpp",
+  "output": "CMakeFiles/Event_app.dir/main.cpp.obj"
+}
+]
