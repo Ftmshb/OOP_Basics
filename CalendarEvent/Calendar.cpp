@@ -39,6 +39,7 @@ void Calendar::refresh()
         if (events[i].get_end_time() < now)
         {
             swap(events[i], events.back()); // جابه جایی رویداد منقضی شده با اخرین رویداد در وکتور
+            events.back().set_expily(true);// اگر منقضی شده باشه به تابع انقضا، تورو میفرسته و اون ویژگی انقضای رویداد رو تورو می کنه
             events.pop_back();//حذف اخرین رویداد در وکتور که همان رویداد منقضی شده است
             sizee--;
         }
