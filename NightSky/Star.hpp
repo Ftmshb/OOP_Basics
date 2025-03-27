@@ -11,9 +11,9 @@ class Star{
     
     public:
     Star(int x, int y, int brightness);
-    float get_x() const;
-    float get_y() const;
-    float get_brightness() const;
+    int get_x() const;
+    int get_y() const;
+    int get_brightness() const;
     void set_coordinates(int x, int y);
     void set_brightness(int brightness);
 

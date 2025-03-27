@@ -11,7 +11,15 @@ void Sky:: show_all_star(){
 
             for(Star& star : stars)
             if(row == star.get_y() && col == star.get_x()){
-                cout << "*";
+                if(star.get_brightness() == 1){
+                    cout << "~";
+                }
+                if(star.get_brightness() == 2){
+                    cout << "*";
+                }
+                if(star.get_brightness() == 3){
+                    cout << "@";
+                }
             }
             else{
                 cout << " ";
